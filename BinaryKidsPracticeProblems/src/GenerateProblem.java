@@ -10,14 +10,14 @@ public interface GenerateProblem
 	int practiceValues = 100;
 	
 	//to hold the test practice values
-	//ArrayList <Integer> values = new ArrayList<Integer>();
+	ArrayList <Integer> values = new ArrayList<Integer>();
 	
 	//to hold the solutions to the practice problems
-	//ArrayList <Integer> solutions = new ArrayList<Integer>();
+	ArrayList <Integer> solutions = new ArrayList<Integer>();
 	
 	void showQuestion(int articleQuestion);
 	
-	boolean checkAnswer(String userAnswer, int articleQuestion);
+	boolean checkAnswer(long userAnswer, int articleQuestion);
 	
 	void subsequentAction();
 }
